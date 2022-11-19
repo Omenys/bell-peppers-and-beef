@@ -1,0 +1,28 @@
+combat
+ >   1v1
+    items
+        potions
+        weapons
+        armor
+        consumables
+   > enemies
+        items
+   > player
+        items
+    formula
+        >damage
+        healing
+        armor
+        
+
+player enemies
+    race
+    class
+    stats
+        >health
+       > damage
+            intelligence
+            strength
+            dexterity
+        armor
+    name
