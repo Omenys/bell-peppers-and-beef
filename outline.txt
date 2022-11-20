@@ -16,8 +16,19 @@ combat
         
 
 player enemies
-    race
-    class
+    name
+    race (friend + foe) => class, objects
+        human
+        orc
+        fairy
+        elf
+        slime
+        spirit
+    class => class, objects
+        warrior -> +strength
+        healer -> +passive healing
+        mage -> +intelligence
+        thief -> +dexterity
     stats
         >health
        > damage
@@ -25,4 +36,17 @@ player enemies
             strength
             dexterity
         armor
-    name
+        speed
+    
+
+items
+    buffs
+        potions => class, objects
+            colors: red, blue, green, pink, white
+            abilities: strength, speed, health, intelligence, all stats
+            spawn calculations: most common -> rare (green, red = blue = pink, white)
+    consumables => class, objects
+        food: chocolate(health), sushi(health), ramen(health)
+        drink: tea(+passive healing), water(+health), coffee(+speed)
+        
+        
